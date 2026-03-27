@@ -1,2 +1,5 @@
+[user]
+	name = Harikesh Kalyanpur
+	email = harikesh26@gmail.com
 [core]
-	excludesfile = /Users/harikeshkalyanpur/.gitignore_global
+	excludesfile = ~/.gitignore_global
