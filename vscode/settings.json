@@ -4,7 +4,7 @@
 
     // Editor
     "editor.fontSize": 13,
-    "editor.fontFamily": "Noto Sans Mono, Hack Nerd Font",
+    "editor.fontFamily": "Hack Nerd Font",
     "editor.lineHeight": 1.6,
     "editor.padding.top": 10,
     "editor.padding.bottom": 10,
@@ -17,7 +17,7 @@
     // Terminal
     "terminal.integrated.fontSize": 13,
     "chat.editor.fontSize": 13,
-    "chat.fontFamily": "Jetbrains Mono",
+    "chat.fontFamily": "Hack Nerd Font",
 
     // UI
     "breadcrumbs.enabled": false,
