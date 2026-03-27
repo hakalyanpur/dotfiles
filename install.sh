@@ -30,6 +30,16 @@ link "$DOTFILES/helix/config.toml"  "$HOME/.config/helix/config.toml"
 link "$DOTFILES/git/gitconfig"        "$HOME/.gitconfig"
 link "$DOTFILES/git/gitignore_global" "$HOME/.gitignore_global"
 
+# --- VS Code ---
+if [ "$(uname)" = "Darwin" ]; then
+    link "$DOTFILES/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+    # Install Gruvbox extension if code CLI is available
+    if command -v code > /dev/null; then
+        info "Installing VS Code Gruvbox extension..."
+        code --install-extension jdinhlife.gruvbox 2>/dev/null || true
+    fi
+fi
+
 # --- iTerm2 ---
 if [ "$(uname)" = "Darwin" ]; then
     info "To import iTerm2 colors: open $DOTFILES/iterm2/gruvbox_dark_hard.itermcolors"

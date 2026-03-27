@@ -1,0 +1,70 @@
+{
+    "window.autoDetectColorScheme": false,
+    "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+
+    // Editor
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Noto Sans Mono, Hack Nerd Font",
+    "editor.lineHeight": 1.6,
+    "editor.padding.top": 10,
+    "editor.padding.bottom": 10,
+    "editor.lineNumbers": "off",
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+
+    // Terminal
+    "terminal.integrated.fontSize": 13,
+    "chat.editor.fontSize": 13,
+    "chat.fontFamily": "Jetbrains Mono",
+
+    // UI
+    "breadcrumbs.enabled": false,
+    "window.commandCenter": false,
+
+    // Go
+    "go.diagnostic.vulncheck": "Off",
+
+    "workbench.colorCustomizations": {
+        "[Darcula]": {
+            // Dracula palette — matches bobthefish theme_color_scheme dracula
+            "terminal.background": "#12131a",
+            "terminal.foreground": "#f8f8f2",
+            "terminalCursor.background": "#12131a",
+            "terminalCursor.foreground": "#f8f8f2",
+            "terminal.ansiBlack": "#21222c",
+            "terminal.ansiRed": "#ff5555",
+            "terminal.ansiGreen": "#50fa7b",
+            "terminal.ansiYellow": "#f1fa8c",
+            "terminal.ansiBlue": "#bd93f9",
+            "terminal.ansiMagenta": "#ff79c6",
+            "terminal.ansiCyan": "#8be9fd",
+            "terminal.ansiWhite": "#f8f8f2",
+            "terminal.ansiBrightBlack": "#6272a4",
+            "terminal.ansiBrightRed": "#ff6e6e",
+            "terminal.ansiBrightGreen": "#69ff94",
+            "terminal.ansiBrightYellow": "#ffffa5",
+            "terminal.ansiBrightBlue": "#d6acff",
+            "terminal.ansiBrightMagenta": "#ff92df",
+            "terminal.ansiBrightCyan": "#a4ffff",
+            "terminal.ansiBrightWhite": "#ffffff"
+        }
+    },
+
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Light]": {
+            "textMateRules": [{
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#aaaaaa",
+                    "fontStyle": "italic"
+                }
+            }]
+        }
+    },
+    "workbench.panel.showLabels": false,
+    "workbench.activityBar.location": "top",
+    "claudeCode.preferredLocation": "sidebar",
+    "workbench.colorTheme": "Gruvbox Dark Hard"
+}
